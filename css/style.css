@@ -1,0 +1,418 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*__________*/
+
+html {
+  --scrollbarBG: #333;
+  --thumbBG: #90A4AE;
+}
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+/*__________*/
+
+html , body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.7em;
+  background-color: #333;
+}
+
+.contenent {
+  max-width: 1100px;
+  margin: auto;
+}
+
+h1 ,h2 ,h3 {
+  padding-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+#navbar {
+  background-color: #333;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  opacity: 70%;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#navbar h1 a{
+  color: #7ccc00;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+  
+}
+
+#navbar ul li a{
+  color: aliceblue;
+  display: block;
+  padding: 20px;
+}
+
+#navbar ul li a:hover,
+#navbar ul li .current{
+  background-color: #444;
+  color: #7ccc00;
+}
+
+#showcase {
+  background: url(../img/showcase.jpg) no-repeat center center/cover fixed;
+  height: 600px;
+}
+
+.container {
+  margin: auto;
+  max-width: 800px;
+  text-align: center;
+  padding-top: 120px;
+  height: 100%;
+}
+
+#scontent #ttt {
+  font-size: 54px;
+  padding-bottom: 30px;
+  color: aliceblue;
+}
+
+.well{
+  color: greenyellow;
+}
+
+#scontent #text{
+  color: #fff;
+  padding-bottom: 150px;
+  font-size: 15px;
+}
+
+#scontent a{
+  display: block-inline;
+  background: #333;
+  color: #fff;
+  font-size: 15px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: 1px greenyellow solid;
+  opacity: 70%;
+
+}
+
+#scontent a:hover{
+  background: #444;
+  color: #7ccc00;
+  opacity: 100%;
+}
+
+#home_info {
+  height: 400px;
+}
+
+#info_img{
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  background: url(../img/lake.jpg) no-repeat center center/cover;
+  background-position-x: 0px;
+
+}
+
+#info {
+  float: right;
+  width: 50%;
+  text-align: center;
+  background: #333;
+  color: aliceblue;
+  min-height: 100%;
+  padding: 20px;
+}
+
+#info h3{
+  color: #7ccc00;
+  font-size: 25px;
+}
+
+#info a {
+  color: aliceblue;
+  display: inline-block;
+  padding: 5px 10px;
+  border: greenyellow 1px solid;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+#info a:hover{
+  background: #555;
+}
+
+#box {
+  float: left;
+  width: 33.3%;
+  height: 300px;
+  text-align: center;
+  padding: 50px 20px;
+  color: aliceblue;
+}
+
+.bx2 {
+  background: #555;
+}
+
+.bx2 i {
+  color: greenyellow;
+}
+
+.clr {
+  clear: both;
+}
+
+footer {
+  background: #444;
+  text-align: center;
+  color: aliceblue;
+  border-top: greenyellow solid 2px;
+  font-size: x-small;
+}
+
+#abt_content {
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+#about_info {
+ 
+  width: 50%;
+  height: 100%;
+  float: left;
+  padding: 25px;
+  text-align: center;
+  margin-top: 70px;
+  background: #444;
+  color: aliceblue;
+  border-radius: 20px;
+}
+#about_info h3{
+  color: green;
+}
+
+#about_img {
+  width: 50%;
+  height: 100%;
+  padding: 40px;
+  display: block;
+  float: right;
+  margin:auto auto;
+  border-radius: 50%;
+}
+
+#about_img img {
+  border-radius: 50%;
+}
+
+#visitors{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+  height: 600px;
+  background: url(../img/lake.jpg) center center/cover no-repeat;
+}
+
+#visitor {
+
+  padding:40px 0px;
+  opacity: 30%;
+}
+
+#visitor:hover{
+  opacity: 90%;
+}
+
+#visitor p {
+  background-color: #333;
+  color: aliceblue;
+  font-size: small;
+  padding: 30px ;
+  line-height: normal;
+  border-radius: 100px;
+}
+
+#visitor img {
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+#visitors_content{
+  margin-bottom: 100px;
+}
+
+#visitors h2 {
+  color: greenyellow;
+  background-color: #333;
+  display: inline-block;
+  padding: 10px 5px;
+  border-radius: 20px;
+  font-size: 20px;
+  opacity: 80%;
+  margin-bottom: 20px;
+}
+
+#istorie {
+  max-width:1000px;
+  margin: auto;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#istorie h2 {
+
+  color: greenyellow;
+  opacity: 70%;
+
+}
+
+#istorie p {
+  background-color: #444;
+  padding: 10px;
+  border-radius: 50px;
+  color: aliceblue;
+}
+
+#foto {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+  color: greenyellow;
+  height: 200px;
+}
+
+#foto #img{
+  display: block;
+  width: 50%;
+  float:left;
+  padding: 0px 10px;
+  color: aliceblue;
+  
+}
+#foto #imgr{
+  display: block;
+  width: 50%;
+  float:right;
+  padding: 0px 10px;
+  color: aliceblue;
+  
+}
+#foto img {
+  
+  width: 100%;
+  transition: transform .2s;
+  height: 100%;
+}
+
+#foto img:hover {
+  transform: scale(1.1);
+  margin: 10px 0px;
+}
+
+#contact {
+  max-width: 1000px;
+  margin: auto;
+  color: aliceblue;
+}
+
+#contact label {
+  display: block;
+}
+
+#contact input , #contact textarea {
+  width: 100%;
+  border-radius: 5px;
+  margin: 10px 5px;
+  background: #555;
+  border: none;
+  color: aliceblue;
+  padding: 3px 3px;
+}
+
+#contact textarea {
+  height: 100px;
+}
+
+#contact button {
+  border:none;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  background-color: #333;
+  color: aliceblue;
+  border: greenyellow 1px solid;
+  border-radius: 20px;
+ 
+}
+
+#contact button:hover{
+  background: #555;
+  cursor: pointer;
+}
+
+#contact input:focus , #contact textarea:focus {
+  border: greenyellow 1px solid;
+  outline: greenyellow 2px;
+}
+
+::placeholder{
+  color: aliceblue;
+  opacity: 70%;
+}
+
+#cont {
+  max-width: 1000px;
+  margin: auto;
+}
+
+#cont div {
+  transition: transform .2s;
+}
+
+#cont div:hover {
+  transform: scale(1.2);
+}

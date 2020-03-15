@@ -1,0 +1,129 @@
+#navbar {
+  position: relative;
+}
+
+#navbar h1{
+  float: none;
+  text-align: center;
+  padding-left:0px;
+}
+
+#navbar ul{
+  float: none;
+}
+
+#navbar ul li{
+  float: none;
+  text-align: center;
+}
+
+#navbar ul li a{
+  padding: 5px;
+}
+
+#showcase {
+  height: 600px;
+}
+
+#showcase p{
+  width: 70%;
+  margin: auto;
+}
+
+#showcase h1 {
+  line-height: 1em;
+}
+
+#info_img{
+  display: none;
+}
+
+#info {
+float: none;
+text-align: center;
+width: 100%;
+padding: 30px;
+}
+
+#box {
+  float: none;
+  width: 100%;
+}
+
+#about_info{
+  width: 100%;
+  margin: auto;
+  float: none;
+  padding: 0;
+}
+
+#about_img img{ 
+  display: none;
+}
+
+#visitor {
+  padding: 10px 0;
+}
+
+#visitor p {
+  padding: 0;
+  border-radius: 0;
+}
+
+#visitors_content 
+{
+  height: 100%;  
+}
+
+#foto #img {
+  width: 100%;
+}
+
+#foto #imgr {
+  width: 100%;
+}
+
+#istorie {
+  margin: 0;
+  padding: 5px;
+}
+
+#istorie p {
+  padding: 10px 5px;
+}
+
+#istorie h2 {
+  margin-top: 20px;
+}
+
+#foto h2 {
+  margin-top: 20px;
+}
+
+#contact label {
+  padding-left: 10px;
+}
+
+#contact input , #contact textarea {
+  width: 96%;
+  padding: 7px 0;
+  font-size: 16.5px;
+  padding-left: 5px;
+}
+
+#contact h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#contact button{
+  display: block;
+  margin: auto;
+  width: 80%;
+  font-size: 16.5px;
+  margin-top: 10px;
+}
+
+#cont div {
+  height: 30%;
+}
