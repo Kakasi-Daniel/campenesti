@@ -126,4 +126,6 @@ padding: 30px;
 
 #cont div {
   height: 30%;
+  border-bottom: 0.5px dotted #777;
+  padding: 1rem 1rem;
 }

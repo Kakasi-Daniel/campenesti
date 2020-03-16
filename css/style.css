@@ -409,10 +409,12 @@ footer {
   margin: auto;
 }
 
-#cont div {
-  transition: transform .2s;
+.containermap{
+  max-width: 800px;
+  margin: auto;
 }
 
-#cont div:hover {
-  transform: scale(1.2);
+#map {
+  height: 400px;
+  margin-top: 2rem;
 }
